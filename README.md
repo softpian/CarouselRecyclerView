@@ -3,7 +3,7 @@ Carousel-Style RecyclerView for a beautiful Android application
 
 Introduction
 ------------
-#### RecyclerView Customized 
+### RecyclerView Customized 
 This repository contains a Photo frame application implementing Carousel RecyclerView for fancy Android application.
 
 The application shows how to customize RecyclerView, especially LinearLayoutManager.
@@ -18,7 +18,7 @@ Please refer to [Developer Guide document of Google][10] for more detailed infor
 
 [10]: https://developer.android.com/guide/topics/ui/layout/recyclerview
 
-#### flickr RESTful API
+### flickr RESTful API
 This application uses RESTful API of [flickr][0] which is a popular image/video hosting service in order to get photos.
 
 It receives photo data formatted in JSON and converts it to Java Objects including photo url, title, owner's name, date, description, viewer's count, comment's count and so on.
@@ -27,7 +27,7 @@ Please visit [https://www.flickr.com/services/api/](https://www.flickr.com/servi
 
 [0]: https://www.flickr.com/services/api/
 
-#### Detailed Illustration
+### Detailed Illustration
 
 Here is code snippet which is a core mechanism for Carousel RecyclerView.
 
@@ -66,7 +66,7 @@ For more clarification, refer to the following illustration.
 ![Carousel illustration](https://softpian.github.io/gifs/Carousel_des.jpg)
 
 
-#### Android development skills
+### Android development skills
 This repository is able to help understand how to use the following skills.
 * How to customize LinearLayoutManager of RecyclerView for beautiful User Interface
 * How to call RESTful API with Retrofit

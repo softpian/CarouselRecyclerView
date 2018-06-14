@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="244dp"
+    android:layout_height="208dp"
+    android:layout_marginStart="-24.5dp" >
+
+    <ImageView
+        android:id="@+id/ivFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/background_color"
+        tools:background="@drawable/list_bg_red" />
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="212dp"
+        android:layout_height="144dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        tools:background="@android:color/background_dark"
+        android:contentDescription="@string/photo" />
+
+    <TextView
+        android:id="@+id/tvPhotoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/ivPhoto"
+        android:text="@string/carousel_item"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:gravity="center" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CarouselRecyclerView</string>
+    <string name="carousel_recycler_view">Carousel Recycler View</string>
+    <string name="carousel_item">Carousel Item</string>
+    <string name="background_color">background color</string>
+    <string name="photo">photo</string>
+</resources>

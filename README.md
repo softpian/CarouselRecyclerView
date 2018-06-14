@@ -80,7 +80,7 @@ Screenshots
 <img src=https://softpian.github.io/gifs/CarouselRecyclerView.gif width="500" />
 
 
-Getting Stared
+Getting Started
 --------------
 In your local.properties file, put your own key given from [flickr][0]:
 

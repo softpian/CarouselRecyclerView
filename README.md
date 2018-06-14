@@ -14,7 +14,7 @@ Original RecyclerView needs to be modified so that it can meet the specification
 
 RecyclerView in this application was customized to implement Carousel style User Interface for items in the list.   
 
-Please refer to [Developer Guide document of Google][10] for more detailed information about Android RecyclerView implementation
+Please refer to [Developer Guide document of Google][10] for more detailed information about Android RecyclerView implementation.
 
 [10]: https://developer.android.com/guide/topics/ui/layout/recyclerview
 
@@ -35,7 +35,7 @@ This is like a kind of Numerical Analysis or Linear Algebra codes even if it is 
 
 minifyAmount is a variable for minifying the items up to 25% size near the midpont of parent view.
  
-The items will be minified to 25% when distance between parent and child midpoint are 75% from the midpont of parent view
+The items will be minified to 25% when distance between parent and child midpoint are 75% from the midpont of parent view.
 ```
 float minifyAmount = 0.25f;
 float minifyDistance = 0.75f;

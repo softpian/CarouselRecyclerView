@@ -68,7 +68,7 @@ For more clarification, refer to the following illustration.
 
 #### Android development skills
 This repository is able to help understand how to use the following skills.
-* How to customize LinearLayoutManager for beautiful User Interface
+* How to customize LinearLayoutManager of RecyclerView for beautiful User Interface
 * How to call RESTful API with Retrofit
 * How to use OkHttp Logging Intercepter in order to debug HTTP request/response data  
 * How to convert JSON to Java Objects with Moshi

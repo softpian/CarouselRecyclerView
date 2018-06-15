@@ -63,7 +63,7 @@ scaleFactor is got from the propotional expression applied below.
 ```
 
 For more clarification, refer to the following illustration.
-<img src=https://softpian.github.io/gifs/Carousel_illustration.png width="650" />
+<p><img src=https://softpian.github.io/gifs/Carousel_illustration.png width="650" /></p>
 
 
 ### Android development skills
@@ -77,7 +77,7 @@ This repository is able to help understand how to use the following skills.
 
 Screenshots
 -----------
-<img src=https://softpian.github.io/gifs/CarouselRecyclerView.gif width="500" />
+<p><img src=https://softpian.github.io/gifs/CarouselRecyclerView.gif width="500" /></p>
 
 
 Getting Started

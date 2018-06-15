@@ -20,6 +20,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
+### retfofit
 # Platform calls Class.forName on types which do not exist on Android to determine platform.
 -dontnote retrofit2.Platform
 # Platform used when running on Java 8 VMs. Will not be used at runtime.
@@ -29,6 +30,7 @@
 # Retain declared checked exceptions for use by a Proxy instance.
 -keepattributes Exceptions
 
+### okhttp
 -dontwarn okio.**
 -dontwarn javax.annotation.**
 -keepclasseswithmembers class * {
@@ -43,6 +45,7 @@
 # A resource is loaded with a relative path so the package of this class must be preserved.
 -keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
 
+### glide
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep public class * extends com.bumptech.glide.module.AppGlideModule
 -keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
@@ -52,3 +55,11 @@
 
 # for DexGuard only
 -keepresourcexmlelements manifest/application/meta-data@value=GlideModule
+
+### Moshi
+#-dontwarn okio.**
+#-dontwarn javax.annotation.**
+-keepclasseswithmembers class * {
+    @com.squareup.moshi.* <methods>;
+}
+-keep @com.squareup.moshi.JsonQualifier interface *

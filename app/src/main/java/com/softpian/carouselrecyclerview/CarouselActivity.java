@@ -70,7 +70,7 @@ public class CarouselActivity extends AppCompatActivity {
         queryParameters.put("safe_search", Constant.SAFE_SEARCH);
         queryParameters.put("text", "BeautifulNewZealand");
         queryParameters.put("page", "1");
-        queryParameters.put("perpage", "30");
+        queryParameters.put("per_page", "30");
 
         flickrPhotoApi.getFlickrPhotosSearch(queryParameters)
                 .enqueue(new Callback<PhotoResponse>() {
